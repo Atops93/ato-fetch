@@ -33,8 +33,8 @@ logo
 # Print system info
 echo "System Information:"
 echo "-------------------"
-cat /etc/os-version | grep "PRETTY_NAME"
-echo "Operating System: $(cat /etc/os-version)"
+#cat /etc/os-release | grep "PRETTY_NAME"
+#echo "Operating System: $(cat /etc/os-release)"
 echo "Kernel Version: $(uname -r)"
 echo "Uptime: $(uptime -p)"
 echo "Architecture: $(uname -m)"
